@@ -1,0 +1,96 @@
+*{
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+}
+
+body{
+    box-sizing:border-box;
+    font-family: "Arial Black", Calibri, serif;
+    background-image: linear-gradient(135deg, #0087d4,#505448, #2f3f80,#161569,#5a4894,#080808,#706b6d);
+    background-size: 500%;
+    animation: faninado 10s infinite;
+    color: white;
+    
+}
+@keyframes faninado{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+.contenedor {
+    text-align: justify;
+}
+div ul {
+    color: black;
+}
+div li {
+   
+    box-sizing:border-box;
+    text-decoration: none;
+    color: black;
+    font-size: 20;
+    clear: both;
+
+}
+
+div a {
+    display:inline-block;
+    box-sizing:border-box;
+	height:45px;
+	background-color:#7d837e;
+	text-decoration: none;
+	margin:0% 3% 1% 0;
+	padding:1% 4%;
+	border-radius: 15px;
+    box-sizing:border-box;
+    color: black;
+    margin-bottom: 1%;
+
+}
+a:hover{
+    background-color: aliceblue;
+    color: #161569;
+}
+.half{
+	width:45%;
+	margin-right: 2%;
+	display:inline-block;
+	float:left;
+    color: rgb(20, 19, 19);
+}
+img{
+    margin: 50px;
+border-radius: 30px;
+opacity: 0.6;
+display: flex;
+object-fit: cover;
+float: right;
+}
+
+p{
+    font-family: Arial;
+}
+footer {
+    background-color: beige;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .footer-content {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  h3 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
